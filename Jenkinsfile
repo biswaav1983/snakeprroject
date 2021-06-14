@@ -27,11 +27,11 @@ node ('master'){
     } */
   
     
-  /*  stage('Pull-image-server') {
-        sh 'Pull-image-server' 
-         sh "docker-compose down"
-         sh "docker-compose up -d"	
-      } */
+    stage('Pull-image-server') {
+        sh 'echo Pull-image-server' 
+        /* sh "docker-compose down"
+         sh "docker-compose up -d"	*/
+      } 
     
   /*  stage('DAST')
         {
