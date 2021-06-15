@@ -13,7 +13,7 @@ node ('Ubuntu-app-agent'){
     stage('Post-to-dockerhub') {
 
      docker.withRegistry('https://registry.hub.docker.com', 'dockersnake') {
-            app.push("latest")
+            app.push("new")
                                 }
          }
    
