@@ -1,6 +1,6 @@
 {
   "name": "snakeprroject",
-  "version": "2.0",
+  "version": "4.2.6",
   "description": "A multiplayer snake game built on NodeJs, Express, socket.io, JavaScript ES6, and jspm.",
   "repository": {
     "type": "git",
