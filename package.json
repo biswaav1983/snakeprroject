@@ -1,6 +1,6 @@
 {
   "name": "snakeprroject",
-  "version": "1.0.3",
+  "version": "2.0",
   "description": "A multiplayer snake game built on NodeJs, Express, socket.io, JavaScript ES6, and jspm.",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
     "pretest": "eslint .",
     "test": "mocha",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha",
-    "sonar": "node sonar-project.js"
+    "sonar-scanner": "node sonar-project.js"
   },
   "devDependencies": {
     "chai": "^3.5.0",
