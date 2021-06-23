@@ -79,7 +79,7 @@ try {
 	   mimeType: 'text/html',
 
       // recipientProviders: [[$class: 'DevelopersRecipientProvider']]
-	   to: 'avispiku@gmail.com'
+	   to: 'avijit.biswas@lowes.com'
 
      )
 
